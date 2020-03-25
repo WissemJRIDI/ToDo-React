@@ -1,0 +1,48 @@
+body{
+  background-image: image("Wallpaper.jpg");
+}
+
+.App{
+  background-color: #0e6e91;
+  min-height: 700px;
+  width: 400px;
+  margin: 40px auto;
+  border-radius: 20px;
+}
+
+#to-do-form input {
+  background-color: #0e84a8;
+  border: 0;
+  margin: 20px;
+  height: 40px;
+  width: 200px;
+  padding: 0 20px;
+  font-size: 17px;
+  border-radius: 20px;
+  color: #f0f8ff77;
+  cursor: text;
+}
+
+#to-do-form input::placeholder{
+  color: #F0F8FF55;
+}
+
+#to-do-form input:focus{
+  outline: none;
+}
+
+#to-do-form button{
+  height: 40px;
+  width: 80px;
+  background-color: #0e84a8;
+  border-radius: 20px;
+  border: 0;
+  font-size: 20px;
+  color: aliceblue;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+#to-do-form button:focus{
+  outline: none;
+}
